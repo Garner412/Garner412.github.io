@@ -5,6 +5,10 @@ h1 {
 	font-family: "Verdana"
 }
 
+body {
+	min-width: 500px;
+}
+
 table {
 	margin-left: 50px;
 	background-image: url("RealMadridLogo.png");
@@ -41,4 +45,10 @@ a:visited {
 
 #dedicated {
 	font-size: 1.6em;
+}
+
+@media screen and (max-width: 450px) {
+	body {
+		background-color: tan;
+	}
 }
