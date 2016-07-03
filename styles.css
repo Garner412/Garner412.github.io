@@ -1,3 +1,44 @@
+h1 {
+	padding: 20px;
+	border: dotted;
+	border-color: blue;
+	font-family: "Verdana"
+}
+
+table {
+	margin-left: 50px;
+	background-image: url("RealMadridLogo.png");
+	background-repeat: round;
+}
+
+footer {
+	text-align: center;
+}
+
 body {
-	background-color: blue;
+
+}
+
+.GK {
+	color: grey;
+}
+
+.Def {
+	color: blue;
+}
+
+.MF {
+	color: red;
+}
+
+.FW {
+	color: gold;
+}
+
+a:visited {
+	color: green;
+}
+
+#dedicated {
+	font-size: 1.6em;
 }
